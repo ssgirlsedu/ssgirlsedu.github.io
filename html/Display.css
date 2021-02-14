@@ -1,0 +1,188 @@
+.style1
+{
+    font-size: 18px;
+    color: #7D7D7D;
+}
+.style2
+{
+    color: #0000FF;
+    font-weight: bold;
+    font-size: 24%;
+}
+#Layer1
+{
+    position:absolute;
+    left:244px;
+    top:841px;
+    width:645px;
+    height:135px;
+    z-index:1001;
+}
+#Layer2
+{
+    position:absolute;
+    left:745px;
+    top:804px;
+    width:135px;
+    height:237px;
+    z-index:1001;
+}
+#Layer3
+{
+    position:absolute;
+    left:221px;
+    top:835px;
+    width:521px;
+    height:164px;
+    z-index:1002;
+    background-color: #9933FF;
+}
+#Layer4
+{
+    position:absolute;
+    left:698px;
+    top:741px;
+    width:143px;
+    height:149px;
+    z-index:1001;
+    background-color: #FFFFFF;
+    visibility: hidden;
+}
+#Layer5
+{
+    position:absolute;
+    left:703px;
+    top:750px;
+    width:216px;
+    height:272px;
+    z-index:1001;
+}
+#Layer6
+{
+    position:absolute;
+    left:79px;
+    top:28px;
+    width:37px;
+    height:40px;
+    z-index:1002;
+}
+.style3 {font-size: 10px}
+.style4
+{
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:#0000FF;
+}
+#Layer7
+{
+    position:absolute;
+    left:642px;
+    top:19px;
+    width:258px;
+    height:38px;
+    z-index:1003;
+}
+#Layer8
+{
+    position:absolute;
+    top:81px;
+    width:374px;
+    height:42px;
+    z-index:1003;
+}
+#Layer9
+{
+    position:absolute;
+    left:734px;
+    top:240px;
+    width:206px;
+    height:25px;
+    z-index:1003;
+}
+#Layer10
+{
+    position:absolute;
+    left:636px;
+    top:18px;
+    width:265px;
+    height:36px;
+    z-index:1004;
+}
+.highResolutionsTopHeader
+{
+}
+.normalResolutionsTopHeader
+{
+}
+.lowResolutionsTopHeader
+{
+    margin-left:150px;
+}
+
+.menu
+{
+        background:#FFFFFF;
+        height:20px;
+        padding:5px 0px 5px 0px;
+        z-index:500;
+
+}
+
+.body_con
+{
+        border:1px #CCCCCC solid;
+        width:1000px;
+        height:100%;
+        margin:0px auto;
+        padding:0px;
+}
+a.button
+{
+    /* Sliding right image */
+    display: block;
+    float: left;
+    height: 20px; /* CHANGE THIS VALUE ACCORDING TO IMAGE HEIGHT */
+    margin: 0px 0px 0px 25px;
+    padding-right: 10px; /* CHENGE THIS VALUE ACCORDING TO RIGHT IMAGE WIDTH */
+    /* FONT PROPERTIES */
+    text-decoration: none;
+    color: #000000;
+    font-family:tahoma, SansSerif, Arial;
+    font-size:11px;
+    letter-spacing:2px;
+}
+a.button:hover
+{
+    background: transparent url('/Images/PNG/Right_Button.png') no-repeat scroll top right;
+    color:#FFFFFF;
+}
+a.button span
+{
+    /* Background left image */
+    display: block;
+    line-height: 20px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+    padding: 0px 0px 0px 10px;
+}
+a.button:hover span
+{
+    text-decoration:none;
+    background: transparent url('/Images/PNG/Left_Button.png') no-repeat;
+}
+
+#menu a:hover, #menu .active a
+{
+    background: transparent url('/Images/PNG/Right_Button.png') no-repeat scroll top right;
+    color:#FFFFFF;
+}
+#menu a span, #menu active a span
+{
+/* Background left image */
+    display: block;
+    line-height: 20px; /* CHANGE THIS VALUE ACCORDING TO BUTTON HEIGHT */
+    padding: 0px 0px 0px 10px;
+}
+#menu a:hover span, #menu .active a span
+{
+    text-decoration:none;
+    background: transparent url('/Images/PNG/Left_Button.png') no-repeat;
+}
